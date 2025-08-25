@@ -1,0 +1,63 @@
+body {
+    background-color: #4E0080;
+     background-image: url(../_imagens/goku.png);
+    background-size: 30%;
+     background-repeat: no-repeat;
+     background-position: right;
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive;
+    background-color: #8C0789;
+    border-style: dashed;
+    border-color: #CE9D3E;
+    color:#CE9D3E;
+    border-radius: 8px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    color: white;
+    border: 3px solid #FCD936;
+    
+}
+table tr th{
+    color: #CE9D3E;
+    font-size: 20px;
+    background-color: #8c078a;
+}
+table tr,th,td{
+    border: 2px solid #CE9D3E;
+    font-weight: bold;
+}
+
+fieldset {
+    color: white;
+    border: 3px solid #FCD936;
+}
+fieldset label{
+    display: block;
+}
+fieldset select{
+    width: 50%;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+
+#botoes {
+    background-color: #9C31C9;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#botoes:hover{
+    background-color: rgb(57, 0, 92);
+}

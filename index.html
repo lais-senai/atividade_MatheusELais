@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <title>Forms SuperAçai</title>
+</head>
+
+<body>
+    <h1>FORMULARIO SUPERAÇAIAJIN</h1>
+
+    <table>
+        <tr>
+            <th>Tamanho</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>(P) Pequeno</td>
+            <td style="color: #8C0789;">R$10,00</td>
+        </tr>
+        <tr>
+            <td>(M) Médio</td>
+            <td style="color: #8C0789;">R$15,00</td>
+        </tr>
+        <tr>
+            <td>(G) Grande</td>
+            <td style="color: #8C0789;">R$20,00</td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend>Compre Já</legend>
+        <form action="">
+            <label for="tamanho">Tamanho:</label>
+            <select name="tamanho" id="tamanho">
+                <option value="tamP">Pequeno</option>
+                <option value="tamM">Médio</option>
+                <option value="tamG">Grande</option>
+            </select>
+            <label for="formaPag">Forma de Pagamento:</label>
+            <select name="formaPag" id="formaPag">
+                <option value="formaD">Dinheiro</option>
+                <option value="formaC">Cartão</option>
+            </select>
+            <p id="seForDinheiroAparece"></p>
+        </form>
+    </fieldset>
+
+    <br>
+    <button onclick="comprar()" id="botoes">Finalize sua Compra</button>
+    <script src="_js/scripts.js"></script>
+</body>
+
+</html>
