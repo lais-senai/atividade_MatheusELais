@@ -1,7 +1,7 @@
 body {
     background-color: #4E0080;
      background-image: url(../_imagens/goku.png);
-    background-size: 30%;
+    background-size: 350px;
      background-repeat: no-repeat;
      background-position: right;
 }
@@ -10,7 +10,6 @@ h1 {
     text-align: center;
     font-family:cursive;
     background-color: #8C0789;
-    border-style: dashed;
     border-color: #CE9D3E;
     color:#CE9D3E;
     border-radius: 8px;
